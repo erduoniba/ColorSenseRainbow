@@ -90,8 +90,10 @@ extension Color {
         var error : NSError?
         
         var hexIntValue : UInt32 = 0x000000
+        var convertHexString = hexString.stringByReplacingOccurrencesOfString("0x", withString: "");
+        convertHexString = convertHexString.stringByReplacingOccurrencesOfString("0X", withString: "")
         
-        let stringSize = hexString.characters.count
+        let stringSize = convertHexString.characters.count
         
         
         if ( ( stringSize == 6 ) || ( stringSize == 7 ) ) {
@@ -101,10 +103,10 @@ extension Color {
             
             do {
                 let regex = try NSRegularExpression ( pattern: pattern, options: .CaseInsensitive)
-                let matchRange = regex.rangeOfFirstMatchInString( hexString, options: .ReportProgress, range: range )
+                let matchRange = regex.rangeOfFirstMatchInString( convertHexString, options: .ReportProgress, range: range )
                 
                 if matchRange.location != NSNotFound {
-                    var workingString = hexString
+                    var workingString = convertHexString
                     
                     if ( stringSize == 7 ) {
                         workingString = workingString.substringFromIndex( workingString.startIndex.advancedBy(1 ) )

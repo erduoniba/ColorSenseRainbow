@@ -356,6 +356,9 @@ class ColorSenseRainbow: NSObject {
     private func dismissColorWell( fromTextView : NSTextView ) {
         
         if let colorWell = colorWells[ fromTextView ] {
+            if (colorWell.active) {
+                colorWell.deactivate();
+            }
             colorWell.removeFromSuperview()
             colorWells.removeValueForKey( fromTextView )
         }

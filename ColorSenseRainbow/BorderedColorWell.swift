@@ -31,4 +31,9 @@ class BorderedColorWell: NSColorWell {
             borderPath.stroke()
         }
     }
+    
+    override func deactivate() {
+        super.deactivate()
+        NSColorPanel.sharedColorPanel().orderOut(nil)
+    }
 }

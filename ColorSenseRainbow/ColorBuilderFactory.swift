@@ -45,6 +45,8 @@ class ColorBuilderFactory {
             
         case .DefaultHSB:
             return DefaultHSBBuilder()
+        case .RGBHexMacro:
+            return RGBHexMacroBuilder()
             
         case .Unknown:
             return nil
