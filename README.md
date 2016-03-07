@@ -1,3 +1,15 @@
+我添加了对于几种 OC宏形式颜色的支持
+有
+NSColorHexFromRGB(0x377320);
+//NSColorHexFromRGB(0x620f2f);
+//UIColorHexFromRGBAlpha(0x622848,0.6);
+//UIColorWithHex(0xc81fa3)
+//NSColor(red: 2, green: 2, blue: 3, alpha: 0.2);
+//NSColor(hexString: "0x620f2f")
+//NSColor(hexString: "#620f2f")
+等都可以显示
+
+
 # ColorSenseRainbow
 A plugin for Xcode that shows colours and allows you to modify them.  It works for both UIColor and NSColor in Swift and Objective-C.
 
