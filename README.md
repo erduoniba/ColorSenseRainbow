@@ -1,3 +1,21 @@
+# 更新
+添加了对于几种宏形式的支持
+``` objective-c
+NSColorHexFromRGB(0xff00ff);
+UIColorHexFromRGBAlpha(0x622848,0.6);
+UIColorWithHex(0xc81fa3)
+NSColor(red: 2, green: 2, blue: 3, alpha: 0.2);
+NSColor(hexString: "#620f2f")
+UIColor( red: 143.0/255, green: 87.0/255.0, blue: 233.0/255.0, alpha: 1.0 )
+UIColor( red: 227.3/255, green: 183.5/255.0, blue: 180.1/255.0, alpha: 1.0 )
+Color(123,233,234)
+ColorA(222,213,123,0.3)
+ColorS(@"0x123456")
+ColorS(@"123456")
+ColorS(@"#123456")
+```
+![Demo of the plugin](macro.png)
+
 # ColorSenseRainbow
 A plugin for Xcode that shows colours and allows you to modify them.  It works for both UIColor and NSColor in Swift and Objective-C.
 

@@ -5,11 +5,10 @@
 //  Created by yohunl on 16/3/3.
 //  Copyright © 2016年 Northern Realities Inc. All rights reserved.
 //
-//NSColorHexFromRGB(0x620f2f);
+//NSColorHexFromRGB(0xff00ff);
 //UIColorHexFromRGBAlpha(0x622848,0.6);
 //UIColorWithHex(0xc81fa3)
 //NSColor(red: 2, green: 2, blue: 3, alpha: 0.2);
-//NSColor(hexString: "0x620f2f")
 //NSColor(hexString: "#620f2f")
 //UIColor( red: 143.0/255, green: 87.0/255.0, blue: 233.0/255.0, alpha: 1.0 )
 //UIColor( red: 227.3/255, green: 183.5/255.0, blue: 180.1/255.0, alpha: 1.0 )
