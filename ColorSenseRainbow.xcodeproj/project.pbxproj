@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09386A6D1C87F877000B5147 /* RGBHexMacroBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09386A6C1C87F877000B5147 /* RGBHexMacroBuilder.swift */; };
 		094387B31C87D65000E31420 /* RGBHexMacroSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094387B21C87D65000E31420 /* RGBHexMacroSeeker.swift */; };
+		094E25FF1C8D777E00DF6A39 /* RGBMacroSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094E25FE1C8D777E00DF6A39 /* RGBMacroSeeker.swift */; };
 		5609BEDC1AE3F5F300DF2D5B /* BorderedColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609BEDB1AE3F5F300DF2D5B /* BorderedColorWell.swift */; };
 		5609BEDE1AE417CE00DF2D5B /* ColorFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609BEDD1AE417CE00DF2D5B /* ColorFinder.swift */; };
 		5609BEE01AE4184F00DF2D5B /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609BEDF1AE4184F00DF2D5B /* SearchResult.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		09386A6C1C87F877000B5147 /* RGBHexMacroBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBHexMacroBuilder.swift; sourceTree = "<group>"; };
 		094387B21C87D65000E31420 /* RGBHexMacroSeeker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBHexMacroSeeker.swift; sourceTree = "<group>"; };
+		094E25FE1C8D777E00DF6A39 /* RGBMacroSeeker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBMacroSeeker.swift; sourceTree = "<group>"; };
 		5609BEDB1AE3F5F300DF2D5B /* BorderedColorWell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedColorWell.swift; sourceTree = "<group>"; };
 		5609BEDD1AE417CE00DF2D5B /* ColorFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorFinder.swift; sourceTree = "<group>"; };
 		5609BEDF1AE4184F00DF2D5B /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				566236211AE9830800BABC79 /* RGBCalculatedSeeker.swift */,
 				5609BEE11AE41A1500DF2D5B /* Seeker.swift */,
 				094387B21C87D65000E31420 /* RGBHexMacroSeeker.swift */,
+				094E25FE1C8D777E00DF6A39 /* RGBMacroSeeker.swift */,
 			);
 			name = Seekers;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				5609BEE71AE46AC600DF2D5B /* ColorFrameView.swift in Sources */,
 				56D014641AF04131005624AF /* RainbowIntBuilder.swift in Sources */,
 				5662361C1AE940AF00BABC79 /* RainbowHexadecimalIntSeeker.swift in Sources */,
+				094E25FF1C8D777E00DF6A39 /* RGBMacroSeeker.swift in Sources */,
 				56F4E9E41B1624210083699A /* RainbowHexIntBuilder.swift in Sources */,
 				5662361E1AE9420000BABC79 /* Rainbow-Creator.swift in Sources */,
 				094387B31C87D65000E31420 /* RGBHexMacroSeeker.swift in Sources */,

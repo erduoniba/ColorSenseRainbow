@@ -50,6 +50,8 @@ class ColorBuilderFactory {
             
         case .Unknown:
             return nil
+        case .RGBMacro:
+            return nil
         }
     }
 

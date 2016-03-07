@@ -19,6 +19,7 @@ enum CSRColorCreationType {
     case DefaultWhite       // Greyscale with floating point values between 0 and 1
     case DefaultRGB         // RGB with floating point values between 0 and 1
     case RGBHexMacro  //oc的宏方式定义的
+    case RGBMacro  //oc的宏方式定义的
     
 }
 

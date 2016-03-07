@@ -19,7 +19,8 @@ class ColorFinder : CustomStringConvertible {
         RainbowHexadecimalStringSeeker(),
         RainbowHexadecimalIntSeeker(),
         HSBFloatSeeker(),
-        RGBHexMacroSeeker()
+        RGBHexMacroSeeker(),
+        RGBMacroSeeker()
     ]
     
     var description : String {
